@@ -1,0 +1,25 @@
+{
+  "definition": "F(Y,t)[4] = Y[5], hence y6 = dy5/dt",
+  "window": "final 8 excitation periods, no decimation",
+  "checks": [
+    {
+      "NN": 96,
+      "phase_points": 768,
+      "relative_velocity_error": 0.0010816903012729774,
+      "rms": 1.3929455813320966
+    },
+    {
+      "NN": 192,
+      "phase_points": 1536,
+      "relative_velocity_error": 0.0002934800208995167,
+      "rms": 1.3871154929001968
+    },
+    {
+      "NN": 384,
+      "phase_points": 3072,
+      "relative_velocity_error": 7.573603828644766e-05,
+      "rms": 1.3954381313232604
+    }
+  ],
+  "limitation": "Only the y5-y6 projection of a six-state forced system; no proof of steady state or chaos."
+}

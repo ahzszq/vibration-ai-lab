@@ -1,0 +1,42 @@
+{
+  "reference_cases": [
+    {
+      "changes": {},
+      "max_state_error": 0.0,
+      "rms": 1.399816135310193,
+      "points": 2560
+    },
+    {
+      "changes": {
+        "Fah": 0.08,
+        "Epsilon33": 0.04,
+        "Fat": 0.02,
+        "Omegaet": 0.8
+      },
+      "max_state_error": 0.0,
+      "rms": 1.33254146800567,
+      "points": 2560
+    }
+  ],
+  "analytic_oscillator_errors": [
+    6.573270705523271e-09,
+    4.144323773047631e-10,
+    2.6012858533874805e-11
+  ],
+  "short_window_mesh": {
+    "cycles": 2,
+    "steps_per_period": [
+      128,
+      256,
+      512
+    ],
+    "reference_steps_per_period": 1024,
+    "max_endpoint_errors": [
+      2.4630205014808393e-05,
+      9.16573241416252e-06,
+      3.2574506634297506e-06
+    ]
+  },
+  "time_axis": "RK step endpoint; original GUI labels the same state one dt earlier",
+  "limits": "Agreement validates code transfer and short-window integration only. No proof of long-time convergence, physical validity or engineering accuracy."
+}
