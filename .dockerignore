@@ -1,0 +1,12 @@
+*
+!Dockerfile
+!requirements.txt
+!app.py
+!ai_workflow.py
+!engine.py
+!physics.py
+!index.html
+!assistant.js
+!main.js
+!styles.css
+!analysis.js

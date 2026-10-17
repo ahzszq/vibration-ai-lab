@@ -1,0 +1,2 @@
+# Additional native provider adapters. Standard OpenAI-compatible APIs work without this.
+litellm>=1.60,<2

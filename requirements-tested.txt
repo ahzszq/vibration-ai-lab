@@ -1,0 +1,4 @@
+# 本机测试版本，Python 3.10+
+numpy==2.3.5
+pypdf==6.10.0
+pydantic==2.13.5
